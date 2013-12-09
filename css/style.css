@@ -1,0 +1,154 @@
+@charset "utf-8";
+/*
+Copyright (c) 2010, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.com/yui/license.html
+version: 3.3.0
+build: 3167
+*/
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#000;}
+
+/*
+
+*/
+*{
+	box-sizing:border-box;
+}
+html{
+	font-family: Roboto, Helvetica, 'Helvetica Neue', Arial;
+	font-size:16px;
+	color:#333333;
+	font-weight:300;
+}
+a{
+	color:#45BCD2;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+h1,h2,h3{
+font-weight:bold;
+margin-bottom:20px;
+}
+h1{
+	font-size:26px;
+}
+h2{
+	font-size:21px;
+}
+h3{
+	font-size:19px;
+}
+hr{
+	height:0px;
+	border-top:1px solid #DFDFDF;
+	border-bottom:0px solid #DFDFDF;
+}
+p{
+	line-height:150%;
+	margin-bottom:20px;
+}
+.header{
+	font-size:50px;
+	font-weight:300;
+	display:block;
+	width:100%;
+	margin-top:50px;
+	margin-bottom:0px;
+}
+strong{
+	font-weight:bold;
+}
+.right{
+	float:right;
+}
+.left{
+	float:left;
+}
+.clear{
+	display:block;
+	clear:both;
+}
+blockquote{
+	padding-left:20px;
+	border-left:4px solid #ecf0f1;
+}
+blockquote p{
+	font-style:italic;
+}
+em{
+	font-style:italic;
+}
+ol{
+	margin-left:20px;
+	margin-bottom:20px;
+}
+ol li{
+line-height:150%;
+list-style-type:decimal;
+}
+.wrapper{
+	width:100%;
+	max-width:960px;
+	margin:0 auto;
+
+}
+.block{
+	background:#ecf0f1;
+	height:100px;
+	display:inline-block;
+	margin-right:3%;
+	margin-bottom:20px;
+	text-align:center;
+	line-height:100px;
+}
+.block.one{
+width: 99.2%;
+}
+.block.four{
+width: 22.24%;
+}
+.block.two{
+width: 47.8%;
+}
+.block.threefour{
+width: 73.6%;
+}
+.block.three{
+width: 30.8%;
+}
+.block.twothree {
+width: 64.8%;
+}
+.last{
+	margin-right:0px;
+}
+table{
+	width:100%;
+	margin-bottom:20px;
+}
+table thead th{
+	border-bottom:1px solid #DFDFDF;
+}
+table th,td{
+	padding:10px;
+}
+#footer{
+	margin-top:20px;
+		border-top:1px solid #DFDFDF;
+		padding-top:20px;
+		padding-bottom:20px;
+}
+
+
+@media only screen and (max-width : 600px) {
+	.wrapper{
+		padding-left:10px;
+		padding-right:10px;
+	}
+  .block.one,.block.two,.block.three,.block.four,.block.threefour,.block.twothree{
+    width:100%;
+    display:block;
+  }
+}
